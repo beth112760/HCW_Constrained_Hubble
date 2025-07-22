@@ -1,6 +1,6 @@
 This code was written to solve the constrained HCW Equations for rendezvous and docking with the Hubble Space Telescope. A description of the files are below:
 
-- HCW_constrained_hubble_main.m: the main file to compute the optimal constrained trajectory.
-- HCWNAE_local_constrained_WORKS.m: the function file. Note: to obtain the unconstrained trajectory for comparison, comment out the initial k=2 section of residuals and Jacobian
+- HCW_constrained_hubble_main_rv2.m: the main file to compute the optimal constrained trajectory.
+- HCWNAE_local_constrained_redo.m: the function file. Note: to obtain the unconstrained trajectory for comparison, comment out the initial k=2 section of residuals and Jacobian
 - rbf0.m: computes the CRBF matrix
 - rbf1.m: computes the time-derivative of the CRBF matrix
